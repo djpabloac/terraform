@@ -1,9 +1,2 @@
-resource_group_name = "midevrg"
-
-# mimap = {
-#     nombre = "pepito"
-#     edad = "27"
-# }
-
-# demo = "xD"
-# milist = [1, 2, 3, 4]
+resource_group_name = "minuevorgdev"
+# resource_group_secondary_name = "minuevorg"
