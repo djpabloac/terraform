@@ -3,8 +3,8 @@ terraform {
   # Configurar backend
   backend "azurerm" {
     resource_group_name  = "minuevorg"
-    storage_account_name = "minuevorgtfdemo1"
-    container_name       = "intermedio"
+    storage_account_name = "storageminuevorg"
+    container_name       = "intermediominuevorg"
     key                  = "terraform.tfstate"
   }
 
