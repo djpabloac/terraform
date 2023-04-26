@@ -1,13 +1,5 @@
 terraform {
 
-  # Configurar backend
-  backend "azurerm" {
-    resource_group_name  = "minuevorg"
-    storage_account_name = "storageminuevorg"
-    container_name       = "intermediominuevorg"
-    key                  = "terraform.tfstate"
-  }
-
   required_providers {
     azurerm = {
       source = "hashicorp/azurerm"

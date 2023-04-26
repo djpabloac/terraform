@@ -3,6 +3,9 @@ variable "resource_group_name" {
     description = "Nombre del grupo de recursos"
 }
 
-# variable "mimap" {
-#     type = map
-# }
+variable "resource_group_secondary_name" {
+    type = string
+    description = "Nombre secundario del grupo de recursos"
+}
+
+# export TF_VAR_resource_group_secondary_name="minuevorgdev"
