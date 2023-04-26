@@ -9,8 +9,3 @@ variable "resource_group_location" {
 variable "environment" {
   type = string
 }
-
-variable "instance_count" {
-  type = number
-  default = 1
-}
